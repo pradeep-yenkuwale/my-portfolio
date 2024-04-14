@@ -3,9 +3,10 @@ const path = require('path')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/2048-in-react",
+  basePath: "/my-portfolio",
   output: "export",
   reactStrictMode: true,
+  trailingSlash: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
