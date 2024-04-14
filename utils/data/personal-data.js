@@ -10,5 +10,4 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/pradeep-yenkuwale-a256a6a5/',
   stackOverflow: 'https://stackoverflow.com/users/7633739/pradeep-yenkuwale',
   devUsername: "said7388",
-  resume: "../../public/pdfs/resume.pdf"
 }
