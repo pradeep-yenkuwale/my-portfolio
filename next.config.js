@@ -7,12 +7,17 @@ const nextConfig = {
   // output: "export",
   reactStrictMode: true,
   trailingSlash: true,
-  images: { unoptimized: true },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '**',
+      },
+    ],
+  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
-  },
-  images: {
-    domains: ['res.cloudinary.com', 'media.dev.to']
   },
   webpack: (config, { webpack }) => {
     config.module.rules.unshift({
