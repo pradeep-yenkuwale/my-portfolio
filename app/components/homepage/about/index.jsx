@@ -1,7 +1,8 @@
 // @flow strict
-
+"use client"
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
+// import profile from '../../../../public/image/profile.png';
 
 
 function AboutSection() {
@@ -24,7 +25,7 @@ function AboutSection() {
         </div>
         <div className="flex justify-center order-1 lg:order-2">
           <Image
-            src={personalData.profile}
+            src={'/image/profile.png'}
             width={280}
             height={280}
             alt="Pradeep Yenkuwale"

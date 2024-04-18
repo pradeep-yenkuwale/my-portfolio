@@ -3,7 +3,7 @@ const path = require('path')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/my-portfolio",
+  // basePath: "/my-portfolio",
   // output: "export",
   reactStrictMode: true,
   trailingSlash: true,
@@ -15,6 +15,10 @@ const nextConfig = {
         pathname: '**',
       },
     ],
+    formats: ['image/webp'],
+    unoptimized: false,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+
   },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
