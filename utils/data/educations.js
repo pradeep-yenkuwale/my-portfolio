@@ -4,7 +4,7 @@ export const educations = [
     title: "Master Degree",
     duration: "Aug 2014 - Aug 2017",
     course: "MCA - Masters in Computer Applications",
-    institution: "BMS Institute of Technology and Management",
+    institution: "BMS Institute of Technology and Management, Bangalore",
   },
   {
     id: 2,

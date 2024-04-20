@@ -9,5 +9,4 @@ export const personalData = {
   github: 'https://github.com/pradeep-yenkuwale',
   linkedIn: 'https://www.linkedin.com/in/pradeep-yenkuwale-a256a6a5/',
   stackOverflow: 'https://stackoverflow.com/users/7633739/pradeep-yenkuwale',
-  devUsername: "said7388",
 }

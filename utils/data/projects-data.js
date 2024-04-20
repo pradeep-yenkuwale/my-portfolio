@@ -26,9 +26,9 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'Delivery Management Dashboard',
+        name: 'Delivery Management System',
         description: 'I have designed and developed a full-stack web app for managing deliveries, the application is responsible to show realtime delivery updates and other transactions, the application has the user authentication module which will enable the role based access to the delivery data',
-        tools: ['Angular', 'Node.js', "Express.js", "Google Maps", "TypeScript", "MongoDB", "AWS", "API Integration", "Middleware"],
+        tools: ['Angular', 'Node.js', "Express.js", "Google Maps", "TypeScript", "MongoDB", "AWS", "API Integration", "Middleware", "NPM Package", "Microservices", "Google Services"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
