@@ -47,12 +47,22 @@ export const projectsData = [
     {
         id: 5,
         name: 'Yagoot-Ware',
-        description: "-	Desktop based application, Responsible for processing the input files (*.pch, *.set, *.bdf), which has data in string format, gather required data from the file as per the requirements and process the mathematical calculations and give the results in excel format",
+        description: "Desktop based application, Responsible for processing the input files (*.pch, *.set, *.bdf), which has data in string format, gather required data from the file as per the requirements and process the mathematical calculations and give the results in excel format",
         tools: ['Python', 'Tkinter', 'PyCharm'],
         code: '',
         demo: '',
         image: ayla,
-        role: 'Application Developer',
+        role: 'Project Engineer',
+    },
+    {
+        id: 6,
+        name: 'Intranet - An Employee Portal',
+        description: "Employees activity managment application, where employees can apply for leaves, raise technical queries, raise travel requests for corporate travels and client visits",
+        tools: ['Java', 'Struts 3.1', 'MySQL', "Stored Procedure", "MySQL Triggers"],
+        code: '',
+        demo: '',
+        image: ayla,
+        role: 'Project Engineer',
     }
 ];
 
