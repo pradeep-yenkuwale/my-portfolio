@@ -7,7 +7,7 @@ export const projectsData = [
     {
         id: 1,
         name: 'Recommendation Engine',
-        description: "o	Developed a recommendation engine that integrates multiple services, including a rule engine, which interacts with the recommendation engine to process input data, generate suggestions based on configured data, and send the results back to the B2C application",
+        description: "Developed a recommendation engine that integrates multiple services, including a rule engine, which interacts with the recommendation engine to process input data, generate suggestions based on configured data, and send the results back to the B2C application",
         tools: ['NodeJs', 'TypeScript', 'MongoDB', 'NestJs', 'Services Integration', 'System Design', "Architecture Diagram"],
         role: 'Backend Developer',
         code: '',
@@ -75,18 +75,3 @@ export const projectsData = [
         role: 'Project Engineer',
     }
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },

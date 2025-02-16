@@ -123,6 +123,12 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
+c                <span className="text-amber-300">Solution and Design</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">System Architecture</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">LLD and HLD</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">TypeScript</span>
@@ -151,11 +157,15 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">API Integrations</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">System Design</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Technical Documentation</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Fullstack Development</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">ChatGPT</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">OpenAI</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Gemini</span>
                 <span className="text-gray-400">{"'],"}</span>
 
               </div>
@@ -197,7 +207,7 @@ function HeroSection() {
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
                 <span className="mr-2 text-white">skills.length</span>
                 <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
+                <span className="text-orange-400">8</span>
               </div>
               <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
               <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
