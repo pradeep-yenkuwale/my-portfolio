@@ -6,8 +6,18 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'Recommendation Engine',
-        description: "Developed a recommendation engine that integrates multiple services, including a rule engine, which interacts with the recommendation engine to process input data, generate suggestions based on configured data, and send the results back to the B2C application",
+        name: 'Flight Search Recommendations - Airlines',
+        description: "Developed a search recommendation engine, which interacts and process with the user search data, generate suggestions based on configured data (fromRoute, toRoute, fromCountry, toCountry), and updates the search results with recommended airlines",
+        tools: ['NodeJs', 'TypeScript', 'MongoDB', 'NestJs', 'Services Integration', 'System Design', "Architecture Diagram"],
+        role: 'Backend Developer',
+        code: '',
+        demo: '',
+        image: crefin,
+    },
+    {
+        id: 1,
+        name: 'Flight Branded Fares Recommendations',
+        description: "Developed a recommendation engine that integrates multiple services, including a rule engine, which interacts with the recommendation engine to process the user search data, generate suggestions based on configured data, and adds the extra services into the supplier's branded fares and updates the results with recommended branded fares and customer can consume these results",
         tools: ['NodeJs', 'TypeScript', 'MongoDB', 'NestJs', 'Services Integration', 'System Design', "Architecture Diagram"],
         role: 'Backend Developer',
         code: '',
