@@ -4,7 +4,7 @@ const path = require('path')
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // basePath: "/my-portfolio",
-  // output: "export",
+  output: "export",
   reactStrictMode: true,
   trailingSlash: true,
   images: {
