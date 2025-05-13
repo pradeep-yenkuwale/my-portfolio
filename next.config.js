@@ -3,7 +3,7 @@ const path = require('path')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // basePath: "/my-portfolio",
+  basePath: "/my-portfolio",
   output: "export",
   reactStrictMode: true,
   trailingSlash: true,
