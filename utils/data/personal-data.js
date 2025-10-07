@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Pradeep Yenkuwale",
   profile: '/my-portfolio/image/fixedprofile.png',
-  designation: "Senior Software Engineer",
-  description: "Hi, I'm Pradeep Yenkuwale — a passionate and solution-oriented programmer with a strong focus on JavaScript as my primary technology and Python as a secondary tool in my stack. I specialize in designing and implementing scalable architectural solutions, including both High-Level Design (HLD) and Low-Level Design (LLD), with hands-on experience in system integration. With a strong self-learning mindset, I constantly explore new technologies and approaches to problem-solving. I enjoy working across the full web development stack, and I’m particularly driven by building clean, efficient, and impactful web applications. I'm open to opportunities that align with my expertise and passion for technology.",
+  designation: "Technical Leader",
+  description: "Hi, I'm Pradeep Yenkuwale — a Senior Software Engineer passionate about building scalable and impactful web solutions. With deep expertise in JavaScript and Python, I specialize in architectural design (HLD/LLD) and system integration. I’m driven by technical leadership, focusing on scalable architecture, code quality, and team enablement. I enjoy mentoring engineers, fostering collaboration, and guiding projects from design to delivery. I’m seeking opportunities to lead teams, shape technical direction, and drive engineering excellence across the stack.",
   email: 'pradeep1yenkuwale@gmail.com',
   phone: '+91 9880935431',
   address: 'Hebbal, North Bangalore, karnataka - 560045',
