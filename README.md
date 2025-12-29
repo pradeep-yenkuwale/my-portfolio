@@ -1,39 +1,54 @@
-# 🌐 Personal Portfolio Website
+# Personal Portfolio – Pradeep Yenkuwale 🚀
 
-**My personal portfolio built with Next.js** to showcase my skills, projects, experience, and contact information — with performance, SEO, and clean UI in mind.
+This repository contains the source code for my **personal developer portfolio**, built using **Next.js** and deployed on **GitHub Pages**.
 
-This site serves as my **online professional presence** — a digital CV + project showcase + contact gateway.
+The portfolio highlights my professional experience, technical skill set, and selected projects, with a strong focus on **backend engineering, system design, and product-driven development**.
 
----
-
-## 🚀 Live Demo
-
+🌐 **Live Site:**  
 👉 https://pradeep-yenkuwale.github.io/my-portfolio/
 
 ---
 
-## 📌 About
+## 🧠 Purpose of This Portfolio
 
-I’m **Pradeep Yenkuwale** — a Senior Software Engineer specializing in modern web stacks (React / Next.js / TypeScript), backend services, and scalable solutions.
+- Present my engineering background and experience
+- Showcase selected projects with real-world relevance
+- Provide a clean, fast, and accessible personal website
+- Serve as a single entry point for recruiters and collaborators
 
-This portfolio reflects:
-- my technical skills
-- project highlights
-- professional journey
-- ways to connect
+This is intentionally **minimal and performance-focused**, avoiding unnecessary complexity.
 
 ---
 
 ## 🧰 Tech Stack
 
-| Category | Technologies |
-|----------|--------------|
-| Framework | Next.js |
-| Styling | Tailwind CSS |
-| Deployment | Vercel (recommended) |
-| Languages | JavaScript / TypeScript (if used) |
-| Linting & Quality | ESLint, Prettier |
+- **Framework:** Next.js
+- **Language:** JavaScript / TypeScript
+- **Styling:** CSS / Tailwind / custom styles
+- **Deployment:** GitHub Pages
+- **Version Control:** Git & GitHub
 
 ---
 
-## 📂 Project Structure
+## ✨ Key Features
+
+- ⚡ Fast, static site powered by Next.js
+- 📱 Fully responsive layout
+- 🧩 Modular component-based structure
+- 🚀 Optimized for GitHub Pages deployment
+- 🔍 SEO-friendly setup
+- 🎯 Focused on clarity and readability
+
+---
+
+## 📁 Project Structure
+
+```text
+.
+├── components/          # Reusable UI components
+├── pages/               # Next.js pages
+├── public/              # Static assets
+├── styles/              # Global and component styles
+├── next.config.js       # Next.js configuration (GitHub Pages support)
+├── package.json
+└── README.md
