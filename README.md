@@ -23,7 +23,7 @@ This is intentionally **minimal and performance-focused**, avoiding unnecessary 
 ## 🧰 Tech Stack
 
 - **Framework:** Next.js
-- **Language:** JavaScript / TypeScript
+- **Language:** JavaScript
 - **Styling:** CSS / Tailwind / custom styles
 - **Deployment:** GitHub Pages
 - **Version Control:** Git & GitHub
@@ -45,10 +45,8 @@ This is intentionally **minimal and performance-focused**, avoiding unnecessary 
 
 ```text
 .
-├── components/          # Reusable UI components
-├── pages/               # Next.js pages
+├── app/components/          # Reusable UI components
 ├── public/              # Static assets
-├── styles/              # Global and component styles
 ├── next.config.js       # Next.js configuration (GitHub Pages support)
 ├── package.json
 └── README.md
