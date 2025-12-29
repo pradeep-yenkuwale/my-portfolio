@@ -8,8 +8,7 @@ This site serves as my **online professional presence** — a digital CV + proje
 
 ## 🚀 Live Demo
 
-👉 https://pradeep-yenkuwale.vercel.app  
-*(Update this to your actual deployed URL if different)*
+👉 https://pradeep-yenkuwale.github.io/my-portfolio/
 
 ---
 
