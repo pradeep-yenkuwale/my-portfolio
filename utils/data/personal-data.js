@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Pradeep Yenkuwale",
   profile: '/my-portfolio/image/fixedprofile.png',
-  designation: "Technical Leader",
-  description: "Hi, I'm Pradeep Yenkuwale — a Senior Software Engineer passionate about building scalable and impactful web solutions. With deep expertise in JavaScript and Python, I specialize in architectural design (HLD/LLD) and system integration. I’m driven by technical leadership, focusing on scalable architecture, code quality, and team enablement. I enjoy mentoring engineers, fostering collaboration, and guiding projects from design to delivery. I’m seeking opportunities to lead teams, shape technical direction, and drive engineering excellence across the stack.",
+  designation: "Senior Software Engineer · Distributed Systems & Mobile",
+  description: "Senior Software Engineer (8+ years) focused on event-driven distributed systems and real-time backend platforms. I specialize in building reliable microservices and APIs that scale efficiently under real-time and high-traffic workloads. The work I find most satisfying sits before the code — choosing the architectures, event flows, and service boundaries that determine whether a platform scales gracefully or breaks under its first traffic spike. Currently driving backend system design at Almatar, with prior experience across IBM, Irisidea, and Solize. Outside primary work, I build experimental systems end-to-end — architecture, backend, mobile client, deployment — to deeply explore patterns at every layer of the stack. Reach out if you're working on something challenging in distributed systems, mobile + backend integration, or real-time platforms.",
   email: 'pradeep1yenkuwale@gmail.com',
   phone: '+91 9880935431',
   address: 'Hebbal, North Bangalore, karnataka - 560045',

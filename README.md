@@ -1,52 +1,52 @@
-# Personal Portfolio – Pradeep Yenkuwale 🚀
+# Personal Portfolio – Pradeep Yenkuwale
 
-This repository contains the source code for my **personal developer portfolio**, built using **Next.js** and deployed on **GitHub Pages**.
+Source code for my personal developer portfolio. Built with **Next.js**, deployed on **GitHub Pages**.
 
-The portfolio highlights my professional experience, technical skill set, and selected projects, with a strong focus on **backend engineering, system design, and product-driven development**.
+The portfolio surfaces my professional experience, technical depth, and the projects I've shipped — both at companies and as solo end-to-end builds. Focus areas: **distributed systems, event-driven architecture, mobile + backend integration, and real-time platforms.**
 
-🌐 **Live Site:**  
-👉 https://pradeep-yenkuwale.github.io/my-portfolio/
-
----
-
-## 🧠 Purpose of This Portfolio
-
-- Present my engineering background and experience
-- Showcase selected projects with real-world relevance
-- Provide a clean, fast, and accessible personal website
-- Serve as a single entry point for recruiters and collaborators
-
-This is intentionally **minimal and performance-focused**, avoiding unnecessary complexity.
+🌐 **Live site:** https://pradeep-yenkuwale.github.io/my-portfolio/
 
 ---
 
-## 🧰 Tech Stack
+## Featured solo build — Zyntra
 
-- **Framework:** Next.js
-- **Language:** JavaScript
-- **Styling:** CSS / Tailwind / custom styles
-- **Deployment:** GitHub Pages
-- **Version Control:** Git & GitHub
+A privacy-first social platform built end-to-end as a solo engineer: 5 microservices (auth / user / messaging / matchmaking / notification) in NestJS + MongoDB + RabbitMQ + Redis, and a Flutter client with cache-first local-SQLite (Drift) persistence over Socket.IO. Includes a tier-based capability system, device-bound JWT sessions with refresh rotation, certificate pinning, a Trust & Safety subsystem with automated enforcement, and end-to-end account deletion across app + web. Production topology behind nginx on EC2 with HTTPS via certbot.
 
 ---
 
-## ✨ Key Features
+## Tech stack
 
-- ⚡ Fast, static site powered by Next.js
-- 📱 Fully responsive layout
-- 🧩 Modular component-based structure
-- 🚀 Optimized for GitHub Pages deployment
-- 🔍 SEO-friendly setup
-- 🎯 Focused on clarity and readability
+- **Languages:** TypeScript, JavaScript, Dart, Python
+- **Backend:** Node.js, NestJS, REST APIs, Microservices
+- **Mobile:** Flutter, Dart, Drift (SQLite), Socket.IO
+- **Data:** MongoDB, MySQL, PostgreSQL, Redis, SQLite
+- **Messaging:** Kafka, RabbitMQ, WebSocket / Socket.IO
+- **Infra:** AWS, Firebase, Nginx, Docker, GitHub Actions
 
 ---
 
-## 📁 Project Structure
+## Repo structure
 
 ```text
 .
-├── app/components/          # Reusable UI components
-├── public/              # Static assets
-├── next.config.js       # Next.js configuration (GitHub Pages support)
+├── app/components/     # Reusable UI components (Next.js app router)
+├── public/             # Static assets, project images, skill SVGs
+├── utils/data/         # Personal info, projects, experience, skills (edit here)
+├── next.config.js      # GitHub Pages export config
 ├── package.json
 └── README.md
+```
+
+Content lives entirely in `utils/data/*.js` — edit those files to update the portfolio.
+
+---
+
+## Local development
+
+```bash
+npm install
+npm run dev        # http://localhost:3000
+npm run build      # production build
+npm run export     # static export for GitHub Pages
+npm run deploy     # push to gh-pages branch
+```
